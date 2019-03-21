@@ -11,17 +11,18 @@
     "@babel/runtime": "^7.1.5",
     "angular": "^1.7.8",
     "angular-animate": "^1.7.8",
+    "angular-ecmascript": "0.0.3",
     "angular-meteor": "^1.3.12",
     "angular-sanitize": "^1.7.8",
     "angular-ui-router": "^0.3.2",
     "babel-runtime": "^6.26.0",
     "ionic-scripts": "^1.3.5",
-    "meteor-node-stubs": "^0.4.1"
+    "meteor-node-stubs": "^0.4.1",
+    "moment": "^2.24.0"
   },
   "meteor": {
     "mainModule": {
-      "client": "client/main.js",
-      "server": "server/main.js"
+      "client": "client/scripts/lib/app.js"
     },
     "testModule": "tests/main.js"
   }
