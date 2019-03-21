@@ -1,4 +1,5 @@
 node_modules/
-.meteor/
+.meteor/local
+.meteor/meteorite
 *.swp
 *.swo
