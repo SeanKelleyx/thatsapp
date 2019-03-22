@@ -22,7 +22,8 @@
   },
   "meteor": {
     "mainModule": {
-      "client": "client/scripts/lib/app.js"
+      "client": "client/scripts/lib/app.js",
+      "server": "server/bootstrap.js"
     },
     "testModule": "tests/main.js"
   }
